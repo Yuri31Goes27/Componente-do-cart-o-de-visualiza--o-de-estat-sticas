@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor01:hsl(233, 47%, 7%);
+    --cor02:hsl(244, 38%, 16%);
+    --cor03:hsl(277, 64%, 61%);
+    --cor04:hsl(0, 0%, 100%);
+    --cor05:hsla(0, 0%, 100%, 0.75);
+    --cor06:hsla(0, 0%, 100%, 0.6);
+    --font01:'Outfit', sans-serif;;
+   
+}
+
+body{
+    
+    font-family: var(--font01);
+}
+div.container{
+    position: absolute;
+    background-color: var(--cor01);
+    left: 50%;
+    top: 50%;
+    
+}
+div.conteudo{
+    background-color: var(--cor02);
+    position: relative;
+    top: -50%;
+    left: -50%;
+
+}
+div.conteudo > h1{
+    color: var(--cor04);
+    font-size: 3em;
+    padding: 10px;
+    margin: 10px 7px 5px 6px;
+
+    
+}
+div.conteudo > h1 > a {
+    color: var(--cor03);
+    text-decoration: none;
+}
+div.conteudo > p {
+    color: var(--cor04);
+}
+div.conteudo > p.text-parágrafo {
+  padding: 5px;
+}
+div.conteudo > img {
+    float: right;
+    width: 50%;
+}
