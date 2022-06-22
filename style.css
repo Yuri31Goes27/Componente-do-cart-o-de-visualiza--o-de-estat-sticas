@@ -20,40 +20,53 @@
 body{
     
     font-family: var(--font01);
-}
-div.container{
-    position: absolute;
     background-color: var(--cor01);
-    left: 50%;
-    top: 50%;
-    
+   
 }
-div.conteudo{
-    background-color: var(--cor02);
-    position: relative;
-    top: -50%;
-    left: -50%;
-
+.container{
+   width: 1080px;
+   height: 400px;
+   margin: auto;
+   margin-top: 90px;
+   background-color: var(--cor02);
+   border-radius: 10px;
+   
 }
-div.conteudo > h1{
+.container>img{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.text{
+    width: 450px;
+    height: 240px;
+    padding: 50px 50px 0px 50px;
+}
+.text> h1 {
     color: var(--cor04);
-    font-size: 3em;
-    padding: 10px;
-    margin: 10px 7px 5px 6px;
-
-    
+    font-size: 2.5em; 
+    margin-bottom: 20px;
 }
-div.conteudo > h1 > a {
+.text> h1 > a {
     color: var(--cor03);
     text-decoration: none;
 }
-div.conteudo > p {
+.text-parágrafo{
     color: var(--cor04);
+    width: 80%; 
 }
-div.conteudo > p.text-parágrafo {
-  padding: 5px;
+.text2{
+    width: 30%;
+    padding-left: 30px;
+    color: var(--cor04);
+    padding: 15px;
 }
-div.conteudo > img {
+
+.text2 > h2{
+  font-size: 2em;
+}
+.c-direita{
     float: right;
-    width: 50%;
 }
+
+
