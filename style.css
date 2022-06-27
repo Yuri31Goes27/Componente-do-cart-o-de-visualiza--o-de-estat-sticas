@@ -36,6 +36,7 @@ body{
     width: 50%;
     height: 100%;
     float: right;
+   
 }
 .text{
     width: 450px;
@@ -56,37 +57,30 @@ body{
     width: 80%; 
 }
 .text2{
-    width: 220px;
-    padding-left: 50px;
+
+    width: 100%;
     color: var(--cor04);
 
    
 }
 
-.text2 > h2{
-  font-size: 2em;
+.text2>div {
+    display: inline-block;
+    padding: 0px 5px 0px 35px;
+    margin-left: 20px;
 }
 
-.c-direita{
-    width: 60px;
-    float: right;
-   
+.text2 >div > h2{
+    font-weight: bolder;
+    font-size: 1.5em;
 }
-.c-centro{
-    width: 60px;
-    float: right;
-    margin-right: 12px;
-}
-.c-esquerda{
-    width: 60px;
-    float: left;
-}
+
 
 
 footer{
     bottom: 0;
     position: fixed;
-    width: 90%;
+    width: 80%;
     text-align: center;
     color: white;
 }
